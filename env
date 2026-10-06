@@ -1,0 +1,6 @@
+# Сайт (React) и админка с CRM-заказами — запускайте server.ps1 и открывайте:
+http://localhost:8131/index.html
+http://localhost:8131/admin.html
+
+# Без server.ps1 заказы посетителей не сохраняются на диск.
+# CHAT_TOKEN сервер сам дописывает в .env при первом запуске. Это секрет чата, не ключ OpenAI.

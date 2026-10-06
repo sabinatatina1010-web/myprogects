@@ -1,0 +1,14 @@
+.env
+*.env
+admin.password
+env.local
+orders.json
+clients.json
+*.json.bak
+*.json.tmp
+crm.sqlite
+crm.sqlite-shm
+crm.sqlite-wal
+_recover-crm.ps1
+_fix-items.ps1
+node_modules/

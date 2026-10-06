@@ -1,0 +1,9 @@
+.git
+.env
+*.env
+admin.password
+node_modules
+crm.sqlite-shm
+*.pre-sqlite
+*.json.bak
+*.json.tmp

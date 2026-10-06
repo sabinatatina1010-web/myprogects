@@ -1,0 +1,2 @@
+/* Нативные <details> в React: ответ виден, когда пункт открыт. */
+.qa__i[open] > div { height: auto; }

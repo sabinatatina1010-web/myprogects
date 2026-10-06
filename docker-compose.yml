@@ -1,0 +1,19 @@
+services:
+  site:
+    build: .
+    image: sabina-site:latest
+    ports:
+      - "8131:8131"
+    env_file:
+      - .env
+    environment:
+      PORT: "8131"
+      BIND_HOST: "*"
+      SABINA_DATA_DIR: /app/data
+    volumes:
+      - sabina-data:/app/data
+      - ./admin.password:/app/admin.password:ro
+    restart: unless-stopped
+
+volumes:
+  sabina-data:
