@@ -4,8 +4,14 @@ admin.password
 env.local
 orders.json
 clients.json
+orders.deleted.json
+clients.deleted.json
+catalog.json
 *.json.bak
 *.json.tmp
+*.tmp
+*.pre-sqlite
+.env.local
 crm.sqlite
 crm.sqlite-shm
 crm.sqlite-wal
